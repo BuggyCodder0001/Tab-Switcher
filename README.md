@@ -1,12 +1,19 @@
-# React + Vite
+# Tab Switcher (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Tab Switcher component built using React and Tailwind CSS. It allows users to switch between different sections (Home, Profile, Settings) dynamically without reloading the page.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Dynamic Tab Switching – Click on any tab and instantly view its content.
 
-## Expanding the ESLint configuration
+*Tailwind CSS Styling – Beautiful UI with hover effects, shadows, and rounded corners.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*Responsive Design – Centered layout, works across screen sizes.
+
+*Active Tab Highlight – Active tab is highlighted with a different style.
+
+*Safe Content Rendering – Invalid tab IDs automatically show "Invalid tab selected".
+
+*Reusable Component – Can be easily extended to add more tabs or content.
+
+*Interactive UI – Hover effects and smooth style transitions make it user-friendly.
